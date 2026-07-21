@@ -1,0 +1,29 @@
+#pragma once
+
+// Home-row mods
+#define TAPPING_TERM 180
+#define TAPPING_TERM_PER_KEY
+#define QUICK_TAP_TERM 175
+
+#define PERMISSIVE_HOLD_PER_KEY
+#define HOLD_ON_OTHER_KEY_PRESS_PER_KEY
+
+#define RETRO_TAPPING
+
+// If supported by your QMK version
+#define FLOW_TAP_TERM 150
+
+// Caps Word
+#define CAPS_WORD_IDLE_TIMEOUT 3000
+
+// Mouse Keys
+#define MOUSEKEY_DELAY 0
+#define MOUSEKEY_INTERVAL 16
+#define MOUSEKEY_MOVE_DELTA 12
+#define MOUSEKEY_MAX_SPEED 18
+#define MOUSEKEY_TIME_TO_MAX 40
+
+#define MOUSEKEY_WHEEL_DELAY 0
+#define MOUSEKEY_WHEEL_INTERVAL 60
+#define MOUSEKEY_WHEEL_MAX_SPEED 12
+#define MOUSEKEY_WHEEL_TIME_TO_MAX 30
